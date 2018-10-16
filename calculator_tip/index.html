@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>
+        Tipping Calculator
+    </title>
+</head>
+
+<body>
+    <div id="container">
+        <p>How much was the food?</p>
+        <input id="userInput" placeholder="Enter input">
+
+        <form>
+            <select id="serviceQuality">
+                <option disabled selected value="0">Choose an Option</option>
+                <option value="0.3">Outstanding</option>
+                <option value="0.15">It was OK</option>
+                <option value="0.05">Terrible</option>
+            </select>
+        </form>
+
+        <button type="button" id="calculate">Calculate!</button>
+
+        <span id="showOutput"></span>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+
+</html>
